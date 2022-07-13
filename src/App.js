@@ -3,7 +3,6 @@ import { RootPage } from "./pages/Root.js";
 import { useAuth0 } from "@auth0/auth0-react";
 import { RestaurantDetailPage } from "./pages/RestaurantDetail.js";
 import { RestaurantListPage } from "./pages/RestaurantList.js";
-import { useAuth0 } from "@auth0/auth0-react";
 
 function AuthButton() {
   const { isLoading, isAuthenticated, loginWithRedirect, logout } = useAuth0();
